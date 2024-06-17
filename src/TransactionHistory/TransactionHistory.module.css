@@ -1,0 +1,30 @@
+.transactionsTable {
+  width: 840px;
+  margin: 30px auto 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+}
+
+.transactionText {
+  width: 280px;
+  padding: 15px 0 15px 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.transactionHeadText {
+  padding: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #3a3a3a;
+}
+
+.transactionTableRow:nth-child(even) {
+  background-color: lightgrey;
+}
